@@ -1,4 +1,4 @@
-import express, { Router } from "express";
+import express from "express";
 import { registrar,perfil,confirmar,autenticar,olvidePassword,comprobarToken,nuevoPassword }
  from "../controllers/veterinarioController.js";
 import checkAuth from "../middleware/authMiddleware.js";
